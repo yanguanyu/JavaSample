@@ -15,3 +15,7 @@ hs_err_pid*
 *.iml
 /threadsample/build
 /threadsample/gradle
+/niosample/build
+/niosample/gradle
+/jvmsample/build
+/jvmsample/gradle
