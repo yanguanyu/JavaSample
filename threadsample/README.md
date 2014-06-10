@@ -1,2 +1,2 @@
-JavaSample
+thread sample
 ==========
