@@ -19,3 +19,6 @@ hs_err_pid*
 /niosample/gradle
 /jvmsample/build
 /jvmsample/gradle
+/websample/out
+/websample/build
+/websample/gradle
