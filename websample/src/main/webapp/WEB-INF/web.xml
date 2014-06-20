@@ -20,10 +20,18 @@
 		</init-param> 
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-
     <servlet-mapping>
         <servlet-name>log4jinit</servlet-name>
         <url-pattern>/log4jinit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sampleServlet</servlet-name>
+        <servlet-class>org.gradle.sample.SampleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sampleServlet</servlet-name>
+        <url-pattern>/sampleServlet</url-pattern>
     </servlet-mapping>
 
 	<filter>

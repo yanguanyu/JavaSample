@@ -20,6 +20,10 @@ repositories {
     mavenCentral()
 }
 
+tasks.withType(Compile) {
+    options.encoding = "UTF-8"
+}
+
 dependencies {
     compile group: 'commons-io', name: 'commons-io', version: '1.4'
     compile group: 'log4j', name: 'log4j', version: '1.2.15', ext: 'jar'
@@ -42,6 +46,6 @@ dependencies {
     httpPort = 8080
     stopPort = 9451
     stopKey = 'foo'
-//    reload ="automatic"
-//    scanIntervalSeconds = 1
+    reload ="automatic"
+    scanIntervalSeconds = 1
 }

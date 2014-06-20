@@ -9,6 +9,6 @@ String nameValue = (String)request.getAttribute("name");
 String secondValue = (String)request.getAttribute("second");
 String valueValue = request.getParameter("value");
 %>
-<h1><%=nameValue %></h1>
-<h1><%=secondValue %></h1>
-<h1><%=valueValue %></h1>
+<h1>name=<%=nameValue %></h1>
+<h1>secondValue=<%=secondValue %></h1>
+<h1>valueValue=<%=valueValue %></h1>
