@@ -8,7 +8,8 @@ import java.util.concurrent.*;
  */
 public class BlockingQueueSample {
 
-    final BlockingQueue<Integer> queue = new ArrayBlockingQueue<Integer>(3);
+//    final BlockingQueue<Integer> queue = new ArrayBlockingQueue<Integer>(3);
+    final BlockingQueue<Integer> queue = new LinkedBlockingQueue<Integer>(3);
     int i = 0;
     Object lock = new Object();
     class Producer implements Runnable {
