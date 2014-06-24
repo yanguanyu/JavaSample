@@ -40,6 +40,7 @@ public class FutureTaskSample {
             String result = feture.get();//会阻塞在这里直到线程执行结束返回
 //            String result = feture.get(2, TimeUnit.SECONDS);//it will cause timeout error here
             System.out.println("finish getting the result: " + result);
+            threadPool.shutdown();
         } catch (Exception e) {
             e.printStackTrace();
         }
